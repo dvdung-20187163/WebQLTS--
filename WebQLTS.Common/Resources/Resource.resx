@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DefaultUser" xml:space="preserve">
+    <value>Phạm Thị Quyên</value>
+    <comment>Tên người dùng mặc định</comment>
+  </data>
+  <data name="DevMsg_BatchDeleteFailed" xml:space="preserve">
+    <value>Delete multiple from databse return 0</value>
+    <comment>Message cho Dev đọc khi DeleteMultiple bản ghi từ database thất bại</comment>
+  </data>
+  <data name="DevMsg_DeleteFailed" xml:space="preserve">
+    <value>Delete from datase return 0</value>
+    <comment>Message cho Dev đọc khi Delete 1 bản ghi từ database thất bại</comment>
+  </data>
+  <data name="DevMsg_DuplicateCodeFailed" xml:space="preserve">
+    <value>Duplicate Code failed</value>
+    <comment>Message cho Dev đọc khi lấy mã trùng từ database thất bại</comment>
+  </data>
+  <data name="DevMsg_Exception" xml:space="preserve">
+    <value>Catch an exeption</value>
+    <comment>Message cho Dev đọc khi gọi api gặp exeption</comment>
+  </data>
+  <data name="DevMsg_FilterFailed" xml:space="preserve">
+    <value>Filter data from database return 0</value>
+    <comment>Message cho Dev đọc khi Filter dữ liệu từ database thất bại</comment>
+  </data>
+  <data name="DevMsg_GetAllFailed" xml:space="preserve">
+    <value>Get all records from database return 0</value>
+    <comment>Message cho Dev đọc GetAll bản ghi từ databse thất bại</comment>
+  </data>
+  <data name="DevMsg_GetDetailOneFailed" xml:space="preserve">
+    <value>Get detail one from database return 0</value>
+    <comment>Message cho Dev đọc khi GetDetailOne bản ghi từ database thất bại</comment>
+  </data>
+  <data name="DevMsg_GetMaxCodeFailed" xml:space="preserve">
+    <value>Get max code failed</value>
+    <comment>Message cho Dev đọc khi lấy mã lớn nhất thất bại</comment>
+  </data>
+  <data name="DevMsg_InsertFailed" xml:space="preserve">
+    <value>Insert to database return 0</value>
+    <comment>Message cho Dev đọc khi Insert bản ghi vào database thất bại</comment>
+  </data>
+  <data name="DevMsg_UpdateFailed" xml:space="preserve">
+    <value>Update to databse return 0</value>
+    <comment>Message cho Dev đọc khi Update bản ghi vào database thất bại</comment>
+  </data>
+  <data name="DevMsg_ValidateFailed" xml:space="preserve">
+    <value>One or more validation errors occured</value>
+    <comment>Message cho Dev đọc khi validate dữ liệu đầu vào thất bại</comment>
+  </data>
+  <data name="MoreInfo_BatchDeleteFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/9</value>
+    <comment>Đường dẫn tới mô tả lỗi DeleteMultiple bản ghi từ database thất bại</comment>
+  </data>
+  <data name="MoreInfo_DeleteFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/8</value>
+    <comment>Đường dẫn tới mô tả lỗi Delete bản ghi từ database thất bại</comment>
+  </data>
+  <data name="MoreInfo_DuplicateCodeFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/2</value>
+    <comment>Đường dẫn tới mô tả lỗi lấy mã trùng từ database thất bại</comment>
+  </data>
+  <data name="MoreInfo_Exception" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/1</value>
+    <comment>Đường dẫn tới mô tả lỗi Exeption </comment>
+  </data>
+  <data name="MoreInfo_FilterFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/10</value>
+    <comment>Đường dẫn tới mô tả lỗi Filter dữ liệu từ database thất bại</comment>
+  </data>
+  <data name="MoreInfo_GetAllFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/4</value>
+    <comment>Đường dẫn tới mô tả lỗi lấy GetAll bản ghi từ database thất bại</comment>
+  </data>
+  <data name="MoreInfo_GetDetailOneFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/5</value>
+    <comment>Đường dẫn tới mô tả lỗi GetDetailOne bản ghi từ database thất bại</comment>
+  </data>
+  <data name="MoreInfo_GetMaxCodeFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/12</value>
+    <comment>Đường dẫn tới mô tả lỗi lấy mã lớn nhất thất bại</comment>
+  </data>
+  <data name="MoreInfo_InsertFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/6</value>
+    <comment>Đường dẫn tới mô tả lỗi Insert bản ghi vào database thất bại</comment>
+  </data>
+  <data name="MoreInfo_UpdateFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/7</value>
+    <comment>Đường dẫn tới mô tả lỗi Update bản ghi vào database thất bại</comment>
+  </data>
+  <data name="MoreInfo_ValidateFailed" xml:space="preserve">
+    <value>https://openapi.misa.com.vn/errorcode/11</value>
+    <comment>Đường dẫn tới mô tả lỗi validate dữ liệu đầu vào thất bại</comment>
+  </data>
+  <data name="Proc_BatchDelete" xml:space="preserve">
+    <value>Proc_{0}_BatchDelete</value>
+    <comment>Template string cho procedure xóa nhiều bản ghi của 1 bảng</comment>
+  </data>
+  <data name="Proc_DeleteOne" xml:space="preserve">
+    <value>Proc_{0}_DeleteOne</value>
+    <comment>Template string cho procedure xóa một bản ghi của 1 bảng</comment>
+  </data>
+  <data name="Proc_DuplicateCode" xml:space="preserve">
+    <value>Proc_{0}_DuplicateCode</value>
+    <comment>Template string cho procedure lấy bản ghi bị trung của 1 bảng</comment>
+  </data>
+  <data name="Proc_GetAll" xml:space="preserve">
+    <value>Proc_{0}_GetAll</value>
+    <comment>Template string cho procedure lấy tất cả bản ghi của 1 bảng</comment>
+  </data>
+  <data name="Proc_GetDetailOne" xml:space="preserve">
+    <value>Proc_{0}_GetDetailOne</value>
+    <comment>Template string cho procedure lấy chi tiết một bản ghi của 1 bảng</comment>
+  </data>
+  <data name="Proc_InsertOne" xml:space="preserve">
+    <value>Proc_{0}_InsertOne</value>
+    <comment>Template string cho procedure thêm 1 bản ghi của 1 bảng</comment>
+  </data>
+  <data name="Proc_Update" xml:space="preserve">
+    <value>Proc_{0}_Update</value>
+    <comment>Template string cho procedure thêm một bản ghi của 1 bảng</comment>
+  </data>
+  <data name="UserMsg_BatchDeleteFailed" xml:space="preserve">
+    <value>Xóa nhiều bản ghi thất bại</value>
+    <comment>Message cho User đọc khi DeleteMultiple bản ghi từ database thất bại</comment>
+  </data>
+  <data name="UserMsg_DeleteFailed" xml:space="preserve">
+    <value>Xóa bản ghi thất bại</value>
+    <comment>Message cho Dev đọc khi Delete 1 bản ghi từ database thất bại</comment>
+  </data>
+  <data name="UserMsg_DuplicateCodeFailed" xml:space="preserve">
+    <value>Lấy mã trùng thất bại</value>
+    <comment>Message cho User đọc khi lấy mã trùng từ database  thất bại</comment>
+  </data>
+  <data name="UserMsg_Exception" xml:space="preserve">
+    <value>Có lỗi xảy ra, vui lòng liên hệ MISA</value>
+    <comment>Message cho User đọc khi gọi api gặp exeption</comment>
+  </data>
+  <data name="UserMsg_FilterFailed" xml:space="preserve">
+    <value>Lọc dữ liệu từ database thất bại</value>
+    <comment>Message cho User đọc khi Filter dữ liệu từ database thất bại</comment>
+  </data>
+  <data name="UserMsg_GetAllFailed" xml:space="preserve">
+    <value>Lấy toàn bộ bản ghi thất bại</value>
+    <comment>Message cho User đọc khi lấy toàn bộ bản ghi từ databse thất bại</comment>
+  </data>
+  <data name="UserMsg_GetDetailOneFailed" xml:space="preserve">
+    <value>Lấy bản ghi theo ID thất bại</value>
+    <comment>Message cho User đọc khi lấy chi tiết 1 bản ghi từ database thất bại</comment>
+  </data>
+  <data name="UserMsg_GetMaxCodeFailed" xml:space="preserve">
+    <value>Lấy mã lớn nhất của bảng thất bại</value>
+    <comment>Message cho User đọc khi lấy mã lớn nhất thất bại</comment>
+  </data>
+  <data name="UserMsg_InsertFailed" xml:space="preserve">
+    <value>Thêm mới bản ghi thất bại</value>
+    <comment>Message cho User đọc khi Insert bản ghi vào database thất bại</comment>
+  </data>
+  <data name="UserMsg_UpdateFailed" xml:space="preserve">
+    <value>Chỉnh sửa bản ghi thất bại</value>
+    <comment>Message cho User đọc khi Update bản ghi vào database thất bại</comment>
+  </data>
+  <data name="UserMsg_ValidateFailed" xml:space="preserve">
+    <value>Dữ liệu đầu vào không hợp lệ</value>
+    <comment>Message cho User đọc khi validate dữ liệu đầu vào thất bại</comment>
+  </data>
+</root>
